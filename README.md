@@ -103,7 +103,7 @@ We need the ‘body-parser’ package to help us process JSON files passed in re
 ```sudo npm install body-parser```
 Then we create a folder named Books and CD into the folder:
 
-```mkdir Books && cd Books``
+```mkdir Books && cd Books```
 
 In the Books directory, we initialize npm project
 
