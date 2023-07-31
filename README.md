@@ -1,6 +1,7 @@
 # WEB STACK IMPLEMENTATION (MEAN STACK) IN AWS
 ---
 
+
 ## What is a Technology stack?
 ---
 A stack is an arrangement of “things” kept in order one over the other. A technology stack is a set of technologies stacked together to build any application. Popularly known as a technology infrastructure or solutions stack, technology stack has become essential for building easy-to-maintain, scalable web applications.
