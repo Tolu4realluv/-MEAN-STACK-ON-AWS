@@ -161,7 +161,6 @@ module.exports = function(app){
       res.status(500).send('An error occurred while retrieving books');
     });
   });
-
   app.post('/book', function(req, res){
     const book = new Book({
       name: req.body.name,
@@ -179,7 +178,6 @@ module.exports = function(app){
       res.status(500).send('An error occurred while saving the book');
     });
   });
-
   app.delete("/book/:isbn", function(req, res){
     Book.findOneAndRemove(req.query).then(result => {
       res.json({
@@ -191,7 +189,6 @@ module.exports = function(app){
       res.status(500).send('An error occurred while deleting the book');
     });
   });
-
   const path = require('path');
   app.get('*', function(req, res){
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
