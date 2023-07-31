@@ -152,7 +152,6 @@ We then copy and paste the following codes;
 
 ```
 const Book = require('./models/book');
-
 module.exports = function(app){
   app.get('/book', function(req, res){
     Book.find({}).then(result => {
